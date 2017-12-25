@@ -1,7 +1,7 @@
 version: "3"
 services:
   web:
-    image: goweb:1.0
+    image: lpxxn.com:5000/goweb:1.0
     deploy:
       replicas: 5
       resources:
