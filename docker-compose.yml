@@ -3,7 +3,7 @@ services:
   web:
     image: goweb:1.0
     deploy:
-      replicas: 3
+      replicas: 5
       resources:
         limits: 
           cpus: "0.1"

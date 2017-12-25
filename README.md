@@ -17,12 +17,11 @@ docker stack deploy -c docker-compose.yml mygoweb
 ```
 
 # Get service ID
-```
-docker service ls
+```docker service ls
 ```
 # list your service by name 
 ```
-docker service ps mygoweb_web
+docker service ps mygoweb
 ```
 
 # Scale the app
