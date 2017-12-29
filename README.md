@@ -9,13 +9,14 @@ docker run -p 8001:8000 de85
 # Tag image to your private registry
 
 private registry tutorials
-
+```
 http://www.cnblogs.com/li-peng/p/6511331.html
+```
 
 my private register is lpxxn.com:5000
 
 ```
-docker tag goweb lpxxn.com:5000/goweb:1.0
+docker tag goweb:1.0 lpxxn.com:5000/goweb:1.0
 
 docker push lpxxn.com:5000/goweb:1.0
 ```
