@@ -3,7 +3,7 @@
 ```
 docker build . -t goweb:1.0
 
-docker run -p 8001:8000 de85
+docker run -p 8100:8000 [镜像id] 
 ```
 
 # Tag image to your private registry

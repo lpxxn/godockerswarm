@@ -11,7 +11,7 @@ services:
       restart_policy:
         condition: on-failure
     ports:
-      - "8001:8000"
+      - "8111:8000"
     networks: 
       - gowebnet
 networks: 
