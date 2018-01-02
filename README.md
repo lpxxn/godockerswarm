@@ -59,5 +59,3 @@ docker stack rm mygoweb
 docker swarm leave --force
 ```
 
-
-
