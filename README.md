@@ -1,7 +1,7 @@
 # Dockerfile
 
 ```
-docker build . -t goweb:1.0
+docker build  -t goweb:1.0 .
 
 docker run -p 8100:8000 [image id] 
 ```
